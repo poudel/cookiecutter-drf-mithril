@@ -13,6 +13,6 @@ class Dashboard extends UI {
 
 
 o.route.prefix("#");
-o.route(document.body, "/home", {
-    "/home": Dashboard
+o.route(document.body, "/dashboard/", {
+    "/dashboard/": Dashboard
 });
