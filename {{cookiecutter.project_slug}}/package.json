@@ -1,0 +1,30 @@
+{
+  "name": "{{ cookiecutter.project_name }}",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack -d --watch"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "mithril": "^1.1.6",
+    "mithril-componentx": "^0.8.6",
+    "validatex": "^0.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-plugin-transform-class-display-name": "^0.0.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "v4.0.0-alpha.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
