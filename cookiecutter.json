@@ -1,4 +1,5 @@
 {
     "project_name": "Awesome Project",
-    "project_slug": "awesome_project"
+    "project_slug": "awesome_project",
+    "time_zone": "UTC"
 }
