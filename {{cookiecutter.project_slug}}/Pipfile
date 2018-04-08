@@ -11,3 +11,5 @@ django-rest-framework = "*"
 
 
 [dev-packages]
+ipython = "*"
+django-debug-toolbar = "*"
